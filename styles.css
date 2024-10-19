@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#trip-list li {
+    margin-bottom: 10px;
+}
+
+#trip-list li button {
+    margin-left: 10px;
+}
+
+/* 图片容器样式 */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* 如果图片过多，自动换行 */
+    justify-content: space-around; /* 水平分布 */
+    margin-bottom: 20px;
+}
+
+/* 图片样式 */
+.image-gallery img {
+    width: 45%; /* 每张图片占容器宽度的45% */
+    max-width: 400px; /* 设置图片的最大宽度 */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px; /* 图片圆角 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+}
